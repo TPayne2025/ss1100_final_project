@@ -1,4 +1,4 @@
-command_dict = {
+command_dict =   {
     "Reaction Control Subsystem": {
         "Code": "RCS",
         "Commands": {"CMD01":['THRUST_X', range(0,60)],
@@ -11,7 +11,7 @@ command_dict = {
         "Commands": {"CMD01":['HEATER_ON', {0, 1}],
                      "CMD02":['HEATER_OFF', {0, 1}],
                      "CMD03":['VENT_OPEN_RADIATOR', {0, 1}],
-                     "CMD04":['TEMP_SETPOINT', range(-30,60)]}
+                     "CMD04":['TEMP_SETPOINT', range( -30,60)]}
     },
     "Attitude Control Subsystem": {
         "Code": "ACS",
